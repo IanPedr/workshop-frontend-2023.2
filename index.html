@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Links -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/script.js"></script>
+    <link rel="icon" href="./images/starwarsicon.png" />
+
+    <title>Star Wars</title>
+  </head>
+
+  <body>
+    <div class="header">
+    <section id="home">Home</section> 
+      <header class="container">
+        <img src="./images/logopage.png" />
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#gallery">Gallery</a>
+        </div>
+      </header>
+    </div>
+    <div class="background_pag">
+      <div class="container">
+        <div class="text">
+          <h1>UMA JORNADA NAS ESTRELAS</h1>
+
+          <p class="p_central">
+            "Star Wars" é uma popular franquia de entretenimento que começou com o filme original de 1977, dirigido por George Lucas. A saga se passa
+            em uma galáxia fictícia, onde uma luta entre as forças do bem, representadas pelos Jedi, e as forças do mal, lideradas pelos Sith e pelo Império
+            Galáctico, é o ponto central da narrativa.
+            A história principal segue personagens como Luke Skywalker, Princesa Leia, Han Solo e Darth Vader,
+            enquanto eles se envolvem em batalhas épicas, viagens espaciais e confrontos de sabres de luz. A trama é rica em mitologia, explorando
+            temas como o equilíbrio da Força, a redenção e o poder da escolha.
+            Além dos filmes originais, a franquia Star Wars se expandiu para incluir
+            séries de televisão, livros, quadrinhos e videogames, proporcionando aos fãs um vasto universo para explorar. Star Wars se tornou uma parte
+            importante da cultura pop, com uma base de fãs leal e duradoura, e continua a evoluir e se expandir com novos projetos e histórias.
+          </p>
+
+
+          <!-- O chrome não aceita música as vezes -->
+          <audio src="./music/StarWars_The_Imperial_Song.mp3"controls loop ></audio>
+          <p style="color: yellow;">clique acima para escutar para escutar</p>
+
+          <section class="slider">
+            <div class="slider-content">
+
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                <input type="radio" name="btn-radio" id="radio4">
+
+                <div class="slide-box primeiro">
+                    <img src="./images/slide1.jpg" alt="slide1">
+                </div>
+                <div class="slide-box">
+                    <img src="./images/slide2.jpg" alt="slide2">
+                </div>
+                <div class="slide-box">
+                    <img src="./images/slide3.jpg" alt="slide3">
+                </div>
+                <div class="slide-box">
+                    <img src="./images/slide4.jpg" alt="slide4">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+          </section>
+        <h1>Alguns personagens de Star Wars</h1>
+        <section id="gallery">Gallery</section>
+        <ul id="galeria" style="color: white;"></ul>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
